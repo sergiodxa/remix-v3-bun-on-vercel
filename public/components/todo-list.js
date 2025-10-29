@@ -7,7 +7,7 @@ import html from "../html.js";
 /** @this {import("@remix-run/dom").Remix.Handle} */
 export function TodoList() {
   const model = this.context.get(App);
-  /** @type {import("../todo").Todo[]} */
+  /** @type {import("../todo.js").Todo[]} */
   let todos = [];
   let page = 1;
   let pagination = { count: 0, pages: 1 };

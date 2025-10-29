@@ -1,5 +1,5 @@
 import { createRouter } from "@remix-run/fetch-router";
-import routes from "../assets/routes";
+import routes from "../public/routes";
 import todos from "../server/controllers/todos";
 
 const router = createRouter({

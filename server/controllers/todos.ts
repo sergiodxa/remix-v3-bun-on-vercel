@@ -1,7 +1,7 @@
 import type { RouteHandlers } from "@remix-run/fetch-router";
 import { TodoModel } from "../models/todo";
 import z from "zod";
-import type routes from "../../assets/routes";
+import type routes from "../../public/routes";
 
 export default {
   use: [],

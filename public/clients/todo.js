@@ -2,7 +2,7 @@ import { createEventType } from "@remix-run/events";
 import routes from "../routes.js";
 import { TodoSchema } from "../todo.js";
 
-/** @typedef {import("../todo").Todo} Todo */
+/** @typedef {import("../todo.js").Todo} Todo */
 /** @typedef {import("@remix-run/events").createEventType} createEventType */
 /** @typedef {Record<"count" | "pages", number>} PaginationInfo */
 

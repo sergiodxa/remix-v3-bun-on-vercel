@@ -1,5 +1,5 @@
 import { matchSorter } from "match-sorter";
-import { TodoSchema, type Todo } from "../../assets/todo";
+import { TodoSchema, type Todo } from "../../public/todo";
 
 export class TodoModel {
   static file = Bun.file("./todos.json");
