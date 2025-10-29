@@ -1,0 +1,12 @@
+{
+  "name": "remix-v3-bun-on-vercel",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
