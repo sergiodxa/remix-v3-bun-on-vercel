@@ -1,5 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "bunVersion": "1.x",
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index.ts" }]
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.ts" },
+    { "source": "/", "destination": "/assets/index.html" }
+  ]
 }

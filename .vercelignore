@@ -1,0 +1,7 @@
+# Ignore root-level files from being served as static assets
+
+/_.html
+/_.json
+/_.md
+/_.ts
+/server
