@@ -4,9 +4,17 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@remix-run/dom": "^0.0.0-experimental-remix-jam.6",
+    "@remix-run/events": "^0.0.0-experimental-remix-jam.5",
+    "@types/bun": "latest",
+    "htm": "^3.1.1"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@remix-run/fetch-router": "^0.6.0",
+    "match-sorter": "^8.1.0",
+    "zod": "^4.1.12"
   }
 }
