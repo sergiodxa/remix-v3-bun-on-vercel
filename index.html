@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <script type="importmap">
       {
         "imports": {
@@ -21,6 +22,9 @@
         }
       }
     </script>
+    <link rel="modulepreload" href="@remix-run/dom" />
+    <link rel="modulepreload" href="./assets/html.js" />
+    <link rel="modulepreload" href="./assets/components/app.js" />
     <script type="module">
       import { createRoot } from "@remix-run/dom";
       import { App } from "./assets/components/app.js";
