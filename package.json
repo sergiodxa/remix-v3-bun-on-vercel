@@ -1,20 +1,24 @@
 {
-  "name": "remix-v3-bun-on-vercel",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@remix-run/dom": "^0.0.0-experimental-remix-jam.6",
-    "@remix-run/events": "^0.0.0-experimental-remix-jam.5",
-    "@types/bun": "latest",
-    "htm": "^3.1.1"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@remix-run/fetch-router": "^0.6.0",
-    "match-sorter": "^8.1.0",
-    "zod": "^4.1.12"
-  }
+	"name": "remix-v3-bun-on-vercel",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"format": "bunx prettier --write ."
+	},
+	"devDependencies": {
+		"@remix-run/dom": "^0.0.0-experimental-remix-jam.6",
+		"@remix-run/events": "^0.0.0-experimental-remix-jam.5",
+		"@types/bun": "latest",
+		"htm": "^3.1.1",
+		"prettier": "^3.6.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@remix-run/fetch-router": "^0.6.0",
+		"match-sorter": "^8.1.0",
+		"zod": "^4.1.12"
+	}
 }

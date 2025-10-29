@@ -1,4 +1,10 @@
-# remix-v3-bun-on-vercel
+# Remix v3 with Bun on Vercel
+
+This repo is a Remix v3 Todo application using vanilla.js with JSDoc to replace TypeScript.
+
+The server code runs on Bun and is deployed on Vercel, it uses Remix fetch-router for server routing.
+
+## Setup
 
 To install dependencies:
 
@@ -9,7 +15,5 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+vercel dev
 ```
-
-This project was created using `bun init` in bun v1.3.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
